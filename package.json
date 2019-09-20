@@ -1,7 +1,7 @@
 {
   "name": "kibana_drawer_expander",
-  "version": "0.0.0",
-  "description": "kibana-drawer-expander",
+  "version": "1.0.0",
+  "description": "A Kibana plugin to epand/collapse menu drawer",
   "main": "index.js",
   "license": "ISC",
   "author": "Steven WILMOUTH <wilmouth.steven@gmail.com>",
@@ -13,7 +13,7 @@
     "url": "https://github.com/wilmouths/kibana-drawer-expander/issues"
   },
   "kibana": {
-    "version": "7.3.3",
+    "version": "7.2.0",
     "templateVersion": "1.0.0"
   },
   "scripts": {
