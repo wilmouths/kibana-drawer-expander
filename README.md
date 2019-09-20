@@ -14,8 +14,8 @@ kibana-drawer-expander is a plugin for kibana to auto expand and collapse drawer
 
 + Prerequisites
   + Download and install Elasticsearch and Kibana
-  + Logtrail is supported and tested with Kibana 7.x
+  + Logtrail is supported and tested with Kibana 7.2
 
 + Install kibana-drawer-expander plugin (requires restart of Kibana after install)
-  + ``bin/kibana--plugin install https:github.com/wilmouths/kibana-drawer-expander/releases/download/vX.X.X/kibana-drawer-expander.zip
+  + ``bin/kibana--plugin install https:github.com/wilmouths/kibana-drawer-expander/releases/download/v1.0.0/kibana-drawer-expander-7.2-1.0.0.zip
   + Other versions : https:github.com/wilmouths/kibana-drawer-expander/releases
