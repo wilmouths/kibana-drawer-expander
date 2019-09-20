@@ -1,37 +1,21 @@
-# kibana-drawer-expander
+# kibana-drawer-expander - Expand and collapse drawer menu on mouse hover
 
-> kibana-drawer-expander
+![Github All Releases](https://img.shields.io/github/downloads/wilmouths/kibana-drawer-expander/total.svg)](https://github.com/wilmouths/kibana-drawer-expander/releases) [![Kibana 7.2.0](https://img.shields.io/badge/Kibana-v7.2.0-blue.svg)](https://www.elastic.co/guide/en/kibana/7.2/release-notes-7.2.0.html) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
+kibana-drawer-expander is a plugin for kibana to auto expand and collapse drawer menu on mouse hover.
 
-## development
+## Features
 
-See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following yarn scripts.
++ Hide expand / collapse button
++ Extends the drawer menu when the mouse hover the icons
++ Collapse the drawer menu when the mouse leave the menu
 
-  - `yarn kbn bootstrap`
+## Installation
 
-    Install dependencies and crosslink Kibana and all projects/plugins.
++ Prerequisites
+  + Download and install Elasticsearch and Kibana
+  + Logtrail is supported and tested with Kibana 7.x
 
-    > ***IMPORTANT:*** Use this script instead of `yarn` to install dependencies when switching branches, and re-run it whenever your dependencies change.
-
-  - `yarn start`
-
-    Start kibana and have it include this plugin. You can pass any arguments that you would normally send to `bin/kibana`
-
-      ```
-      yarn start --elasticsearch.hosts http://localhost:9220
-      ```
-
-  - `yarn build`
-
-    Build a distributable archive of your plugin.
-
-  - `yarn test:browser`
-
-    Run the browser tests in a real web browser.
-
-  - `yarn test:mocha`
-
-    Run the server tests using mocha.
-
-For more information about any of these commands run `yarn ${task} --help`. For a full list of tasks checkout the `package.json` file, or run `yarn run`.
++ Install kibana-drawer-expander plugin (requires restart of Kibana after install)
+  + ``bin/kibana--plugin install https:github.com/wilmouths/kibana-drawer-expander/releases/download/vX.X.X/kibana-drawer-expander.zip
+  + Other versions : https:github.com/wilmouths/kibana-drawer-expander/releases
