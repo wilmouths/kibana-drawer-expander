@@ -1,7 +1,7 @@
 {
   "name": "kibana_drawer_expander",
   "version": "1.0.0",
-  "description": "A Kibana plugin to epand/collapse menu drawer",
+  "description": "A Kibana plugin to expand/collapse menu drawer",
   "main": "index.js",
   "license": "ISC",
   "author": "Steven WILMOUTH <wilmouth.steven@gmail.com>",
@@ -24,7 +24,7 @@
     "start": "plugin-helpers start",
     "test:server": "plugin-helpers test:server",
     "test:browser": "plugin-helpers test:browser",
-    "build": "plugin-helpers build",
+    "build": "plugin-helpers build"
   },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "link:../../packages/eslint-config-kibana",
