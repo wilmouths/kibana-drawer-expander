@@ -1,4 +1,4 @@
-# kibana-drawer-expander - Expand and collapse drawer menu on mouse hover
+# kibana-drawer-expander
 
 [![Github All Releases](https://img.shields.io/github/downloads/wilmouths/kibana-drawer-expander/total.svg)](https://github.com/wilmouths/kibana-drawer-expander/releases) [![Kibana 7.2.0](https://img.shields.io/badge/Kibana-v7.2.0-blue.svg)](https://www.elastic.co/guide/en/kibana/7.2/release-notes-7.2.0.html) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
